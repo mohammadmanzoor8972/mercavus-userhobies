@@ -1,0 +1,9 @@
+@mixin solidBorder($width, $color) {
+  border: $width solid $color;
+}
+
+
+@mixin lightenColor($value, $color) {
+  opacity: $value;
+  background-color:$color;
+}

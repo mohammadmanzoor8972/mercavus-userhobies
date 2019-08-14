@@ -1,0 +1,45 @@
+@import '../../styles/main';
+
+.container {
+  font-size: $default-font-size;
+
+  &-empty {
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 50px;
+  font-size: $default-font-size;
+  grid-column-gap: 5rem;
+  padding: 1rem;
+  
+  border: 1px solid $black;
+  border-bottom: 0px;
+
+  &:last-child {
+    border-top: 1px solid $black;
+    border-bottom: 1px solid $black;
+    border: 1px solid $black;
+  }
+
+  &:first-child {
+    border-top: 0px;
+  }
+
+  &:hover {
+    background: $grey;
+  }
+}
+
+.delete-btn {
+  text-align: center;
+  cursor: pointer;
+  &:hover {
+    color: $red;
+  }
+}

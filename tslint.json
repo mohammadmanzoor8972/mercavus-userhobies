@@ -1,0 +1,33 @@
+{
+    "defaultSeverity": "warning",
+    "extends": ["tslint:recommended"],
+    "jsRules": {
+      "no-var-keyword": true,
+      "trailing-comma": false,
+      "max-line-length": {
+        "options": [240]
+      },
+      "eofline": true,
+      "quotemark": [true, "single", "avoid-template", "avoid-escape"],
+      "semicolon": [true, "never"],
+      "indent": [true, "spaces", 2]
+    },
+    "rules": {
+      "no-empty": false,
+      "arrow-parens": false,
+      "quotemark": [true, "single"],
+      "semicolon": [true, "never"],
+      "member-access": false,
+      "no-namespace": false,
+      "interface-name": false,
+      "ordered-imports": false,
+      "trailing-comma": false,
+      "object-literal-sort-keys": false,
+      "object-literal-key-quotes": false,
+      "no-empty-interface": false,
+      "indent": [true, "spaces", 2],
+      "eofline": true
+    },
+    "rulesDirectory": []
+  }
+  

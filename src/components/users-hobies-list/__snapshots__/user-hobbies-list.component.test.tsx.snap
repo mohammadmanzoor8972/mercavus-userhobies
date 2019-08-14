@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserHobbiesList component should render hobbies 1`] = `
+<Component
+  hobbies={
+    Array [
+      Object {
+        "date": "since now",
+        "level": "High",
+        "name": "hobby 1",
+      },
+      Object {
+        "date": "since big bang",
+        "level": "Very-High",
+        "name": "hobby 2",
+      },
+    ]
+  }
+  removeHobby={[MockFunction]}
+  user={
+    Object {
+      "hobbies": Array [],
+      "id": "123",
+      "name": "mock",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="item"
+      key="hobby 1-High"
+    >
+      <span
+        className="level"
+      >
+        High
+      </span>
+      <span
+        className="name"
+      >
+        hobby 1
+      </span>
+      <span
+        className="date"
+      >
+        since now
+      </span>
+      <button
+        className="deleteBtn"
+        onClick={[Function]}
+      >
+        x
+      </button>
+    </div>
+    <div
+      className="item"
+      key="hobby 2-Very-High"
+    >
+      <span
+        className="level"
+      >
+        Very-High
+      </span>
+      <span
+        className="name"
+      >
+        hobby 2
+      </span>
+      <span
+        className="date"
+      >
+        since big bang
+      </span>
+      <button
+        className="deleteBtn"
+        onClick={[Function]}
+      >
+        x
+      </button>
+    </div>
+  </div>
+</Component>
+`;
+
+exports[`UserHobbiesList component should render no hobbies placeholder when no hobbies defined 1`] = `
+<Component
+  hobbies={Array []}
+  removeHobby={[MockFunction]}
+  user={
+    Object {
+      "hobbies": Array [],
+      "id": "123",
+      "name": "mock",
+    }
+  }
+>
+  <div
+    className="container containerEmpty"
+  >
+    <NoHobbiesPlaceholder
+      user={
+        Object {
+          "hobbies": Array [],
+          "id": "123",
+          "name": "mock",
+        }
+      }
+    >
+      <span>
+        mock has no specified his hobbies yet. Press add button above to add first hobby!
+      </span>
+    </NoHobbiesPlaceholder>
+  </div>
+</Component>
+`;

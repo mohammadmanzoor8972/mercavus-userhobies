@@ -1,0 +1,34 @@
+@import '../../styles/main';
+
+.container {
+  flex: 1 1;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  font-size: $default-font-size;
+  
+  &-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20rem;
+    padding: 1rem;
+  }
+}
+
+.input-container {
+  background-color: $steal;
+  padding: 1rem;
+  @include solidBorder(1px, $black);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 5rem;
+  grid-column-gap: 5rem;
+
+  &-field{
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    @include solidBorder(1px, $black);
+    
+  }
+}

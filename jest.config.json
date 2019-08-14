@@ -1,0 +1,17 @@
+{
+    "testRegex": ".*\\.test.tsx?$",
+    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json"],
+    "moduleNameMapper": {
+      "\\.(css|scss)$": "identity-obj-proxy"
+    },
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "roots": ["src"],
+    "setupFilesAfterEnv": ["./tests/setup/setup.ts"],
+    "snapshotSerializers": ["enzyme-to-json/serializer"],
+    "globals": {
+      "ts-jest": { "diagnostics": false }
+    }
+  }
+  

@@ -1,0 +1,10 @@
+@import '../../styles/main';
+
+.header{
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: $blue;
+    color:$white;
+    border-bottom: 4px solid $grey;
+}
+

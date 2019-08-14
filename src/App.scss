@@ -1,0 +1,14 @@
+@import './styles/main';
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1rem;
+
+}
+
+
+.splitter-layout>div:nth-child(3){
+      max-width:80%!important;
+  
+}

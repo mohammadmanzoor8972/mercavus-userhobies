@@ -1,0 +1,21 @@
+@import '../../styles/main';
+
+.container {
+  @include solidBorder(1px, $black);
+  border-bottom: 0px;
+
+  &:last-child {
+    @include solidBorder(1px, $black);
+  }
+
+  padding: 1rem;
+
+  &:hover {
+    cursor: pointer;
+    background: $grey;
+  }
+}
+
+.selected {
+  background: $grey;
+}
