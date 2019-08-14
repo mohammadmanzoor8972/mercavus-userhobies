@@ -15,7 +15,7 @@ interface NoHobbiesPlaceholderProps {
 }
 
 const NoHobbiesPlaceholder = ({user}: NoHobbiesPlaceholderProps) =>
-  <span>{`${user.name} has no specified his hobbies yet. Press add button above to add first hobby!`}</span>
+  <span>{`Press add button to add hobby!`}</span>
 
 
 
